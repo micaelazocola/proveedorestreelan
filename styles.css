@@ -124,3 +124,85 @@
     height: 40px;
     
 }
+
+/* Mi perfil  */
+
+.perfilBody{
+    background-color: #EAECF0;
+}
+
+.contenedorPerfil {
+   
+}
+.tituloPerfil {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: lighter;
+    color: #4A678F;
+    text-align: center;
+   
+}
+
+.miPerfilCont {
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    background-color: #DEE7F3;
+    padding: 3%;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1px grey;
+}
+
+.miPerfilCont p {
+    font-size: 20px;
+    
+}
+
+.inputsPerfil {
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    border: white;
+    
+    margin: 5px 50px;
+    margin-top: 20px;
+}
+
+.btnPerfil {
+    background-color: #4A678F;
+    width: 150px;
+    height: 40px;
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    border: #4A678F;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    float: right;
+    text-align: center;
+    margin: 70px 175px;
+    font-size: 18px;
+}
+
+.inputCont{
+    display: flex;
+    margin-left: 65px;
+}
+
+.inputP2 {
+    margin-left: 48px;
+}
+
+.inputP3 {
+    margin-left: 75px;
+}
+
+.inputP4 {
+    margin-left: 57px;
+}
+
+.inputP5 {
+    margin-left: 70px;
+}
