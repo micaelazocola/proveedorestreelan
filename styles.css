@@ -151,7 +151,7 @@
     height: 450px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1.5px 1.5px 1px grey;
 }
 
@@ -205,4 +205,165 @@
 
 .inputP5 {
     margin-left: 70px;
+}
+
+/* Index - Mis comprobantes  */
+
+.bodyIndex{
+    margin: 0;
+    color: #EAECF0;
+    font-family: 'SF Pro Display';
+}
+
+header {
+    width: 100%;
+    background-color: #2F5385;
+    
+    
+}
+
+#btn-menu {
+    display: none;
+    
+   
+}
+
+header label { 
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    padding-right: 13px;
+    
+    
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu {
+    position: absolute;
+    background-color:#2F5385;
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.8s;
+
+    
+}
+.menu ul {
+    list-style: none;
+    flex-direction: column;
+    
+}
+
+.menu li {
+    color: white;
+    padding: 8px;
+    border-top: 1px solid rgb(102, 101, 101);
+    
+    
+}
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+
+}
+.usuario-header{
+    margin-left: 70px;
+    margin-top: 0px;
+   
+    
+}
+.header-img {
+    text-align: end;
+    margin-right: 10px;
+    margin-top: -50px;
+    padding: 5px;
+    
+    
+}
+
+.contenedor-flex {
+
+}
+
+/* Index - main  */
+
+
+
+.comprobantes-cont {
+    margin: auto;
+    margin-top: 70px;
+    background-color: #DEE7F3;
+    width: 1400px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.comprobantes-cont .comprobantes-ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.comprobantes-cont .comp-li1 {
+    padding: 2px;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #153157;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+.contenedor-comprobante {
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    background-color: white;
+    width: 1300px;
+    height: 75px;
+    border-radius: 8px;
+}
+.contenedor-comprobante ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-comprobante li {
+    color: #000000;
+    padding: 10px;
+    justify-content: space-around;
+    margin-right: 65px;
+    margin-left: 15px;
+    margin-top: 3px;
+    display: block;
+}
+.contenedor-comprobante button {
+    background-color: #f4f4f5;
+    width: 110px;
+    height: 40px;
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    border: #4A678F;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 2px grey;
+    float: right;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 18px;
+    font-size: 18px;
+    
+    
+
+}
+
+.img-li {
+    margin-left: -25px;
+    margin-top: 12px;
 }
