@@ -367,3 +367,199 @@ header label:hover {
     margin-left: -25px;
     margin-top: 12px;
 }
+
+
+/* Index - nuevo comprobantes */
+/* PARTE UNO */
+.NCbody{
+    margin: 0;
+    background-color: #EAECF0;
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+}
+
+.title-NC {
+    text-align: center;
+    color: #4A678F;
+}
+
+.contenedorNC1 {
+    background-color: #DEE7F3;
+    width: 650px;
+    height: 500px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px grey;
+    font-size: 20px;
+
+   
+}
+.contenedorNC1 input, select {
+    margin-top: 12px;
+}
+.cont-comprobanteSuperior div {
+    display: flex;
+   
+}
+
+.cont-comprobanteSuperior div p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cont-comprobanteSuperior div input {
+    padding-right: 15px;
+    height: 35px;
+    border-radius: 5px;
+    border: white;
+    box-shadow: 1px 2px 2px grey;
+}
+
+
+
+.cont-comprobanteInferior div{
+    display: flex;
+    
+}
+
+.cont-comprobanteInferior div p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cont-comprobanteInferior div input {
+    padding-right: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border: white;
+    box-shadow: 1px 2px 2px grey;
+}
+
+
+.contenedorNC1 select {
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: white;
+    margin-right: 15px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.btn-agregarItemsFactura{ 
+    color: #f4f4f5;
+    background-color: #4A678F;
+   
+    border: #4A678F;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    float: right;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* PARTE DOS segundo contenedor */
+
+
+
+.mainContainer-NC {
+    display: flex;
+    gap: 5px;
+    
+}
+.contenedorNC2 {
+    background-color: #DEE7F3;
+    width: 650px;
+    height: 480px;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px grey;
+    font-size: 20px;
+
+}
+.contenedorNC2 input, select {
+    margin-top: 12px;
+}
+
+.contenedorNC2 p {
+    margin-right: 10px;
+}
+
+.contenedorNC2 input {
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border: white;
+    width: 50px;
+    box-shadow: 1px 2px 2px grey;
+    margin-left: 8px;
+    
+}
+
+.contenedorNC2 .inputGrande {
+    width: 200px;
+}
+
+/* Comprobante superior 2  */
+
+/* Comprobante inferior2  */
+.contenedor-comprobanteInferior2 div{
+    display: flex;
+    
+}
+
+
+.btn-selectarchivoNC {
+    color: #f4f4f5;
+    background-color: #4A678F;
+    border: #4A678F;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    font-size: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cont-imp2 div{
+    display: flex;
+}
+.cont-imp{
+    display: flex;
+          flex-direction: row-reverse;
+    margin-right: 120px;
+}
+
+.cont-imp p {
+    
+}
+
+/* -------------Boton crear comprobante ------------------------*/
+
+.btn-crearComprobante {
+    color: #f4f4f5;
+    background-color: #4A678F;
+    border: #4A678F;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 2px 2px grey;
+    font-size: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 43%;
+    
+   
+}
